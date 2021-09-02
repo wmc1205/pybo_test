@@ -25,7 +25,7 @@ SECRET_KEY = 'n1vnev#$2h@h$y(p_np(!sd2v=p73vse(h*ly)jun4vact5%8p'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['3.38.17.185']
+ALLOWED_HOSTS = ['15.165.199.135']
 
 
 # Application definition
