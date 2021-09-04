@@ -3,7 +3,6 @@ from django.shortcuts import render, redirect
 from common.forms import UserForm
 
 
-
 def signup(request):
     """
     회원가입
@@ -22,7 +21,8 @@ def signup(request):
         form = UserForm()
     return render(request, 'common/signup.html', {'form': form})
 
-def page_not_found(request,exception):
+
+def page_not_found(request, exception):
     """
     404 Page Not Found
     """
