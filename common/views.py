@@ -24,12 +24,15 @@ def signup(request):
 
 
 
-def page_not_found(request, exception, template_name="templates/common/404.html"):
+def page_not_found(request, exception):
     """
     404 Page Not Found
     """
-    return render(request, template_name, {})
+    return render(request, 'common/404.html', {})
 
-def server_error(request, *args, **argv):
-    return render(request, 'templates/common/500.html', status=500)
+def server_error(request, exception):
+    """
+    5000 server error
+    """
+    return render(request, 'common/500.html', {})
 
