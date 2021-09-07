@@ -129,7 +129,6 @@ LOGIN_REDIRECT_URL = '/'
 #로그아웃 성공후 이동하는 URL
 LOGOUT_REDIRECT_URL = '/'
 
-#로깅 설정
 # 로깅설정
 LOGGING = {
     'version': 1,
